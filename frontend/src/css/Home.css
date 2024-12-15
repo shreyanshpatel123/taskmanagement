@@ -1,0 +1,84 @@
+/* General container styles */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light grey background */
+    margin: 0;
+  }
+  
+  /* Center content in the middle */
+  .home-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  /* Title styling */
+  .home-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Dark grey text */
+    margin-bottom: 20px;
+  }
+  
+  /* Button container styles */
+  .home-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  /* Button styling */
+  .home-button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Admin button color */
+  .admin-button {
+    background-color: #007bff; /* Bootstrap blue */
+    color: #ffffff;
+  }
+  
+  /* User button color */
+  .user-button {
+    background-color: #28a745; /* Bootstrap green */
+    color: #ffffff;
+  }
+  
+  /* Hover and focus effects */
+  .home-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .admin-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .user-button:hover {
+    background-color: #1e7e34; /* Darker green */
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 600px) {
+    .home-title {
+      font-size: 24px;
+    }
+  
+    .home-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  

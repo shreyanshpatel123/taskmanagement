@@ -1,0 +1,101 @@
+.user-dashboard-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .task-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-table th {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  .task-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .status-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  
+  .status-select:focus {
+    outline: none;
+    border-color: #4A90E2;
+  }
+  
+  .status-select option {
+    padding: 8px;
+  }
+  
+
+  /* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-link {
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #357ABD;
+    color: white;
+  }
+  
+
+  /* Add styling for the logout button */
+.logout-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e74c3c;
+    color: white;
+  }
+  

@@ -1,0 +1,98 @@
+/* .assign-task {
+    padding: 20px;
+  }
+  .assign-task table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  .assign-task th,
+  .assign-task td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .assign-task th {
+    background-color: #f4f4f4;
+  }
+  .assign-task button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .assign-task button:hover {
+    background-color: #0056b3;
+  } */
+
+  
+
+
+
+  .assign-task {
+    padding: 20px;
+  }
+  .assign-task table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  .assign-task th,
+  .assign-task td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .assign-task th {
+    background-color: #f4f4f4;
+  }
+  .assign-task button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .assign-task button:hover {
+    background-color: #0056b3;
+  }
+  .assign-task-form {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .assign-task-form form div {
+    margin-bottom: 15px;
+  }
+  .assign-task-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .assign-task-form input,
+  .assign-task-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .assign-task-form button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .assign-task-form button:hover {
+    background-color: #0056b3;
+  }
+  .assign-task-form button[type="button"] {
+    background-color: #f44336;
+  }
+  .assign-task-form button[type="button"]:hover {
+    background-color: #c62828;
+  }
+  
+  
